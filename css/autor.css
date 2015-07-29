@@ -1,0 +1,504 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+body {
+	background-color:#298EEA;
+	color: white;
+	font-family:Roboto, Arial, sans-serif; 
+}
+.prijavaPozad{
+	background-image: url("../img/prijava.jpg");
+	color: white;
+	font-family:Roboto, Arial, sans-serif;
+}
+
+.vidljivo {
+	color: #2c3e50;
+	float:left;	
+	padding-right: 10px;
+	padding-left: 40px;
+	margin-left: -100px;
+	margin-top: -15px;
+	height: 100%;
+	border-right:8px solid #2980b9;
+	border-top:5px solid #2980b9;
+	background-color: #ecf0f1;
+	
+}
+.vidljivo select{
+	margin-left: 10px;
+
+}
+.vidljivo2 {
+	color: #2c3e50;
+	float:left;	
+	padding-right: 10px;
+	padding-left: 40px;
+	margin-left: -100px;
+	margin-top: -15px;
+	border-right:8px solid #2980b9;
+	border-top:5px solid #2980b9;
+	background-color: #ecf0f1;
+	
+}
+.vidljivo2 select{
+	margin-left: 10px;
+
+}
+.prijavljen{
+	background-color:#2980b9;
+	color: white; 
+	height: 20px;
+	margin-left: -30px;
+	padding-left: 20px;
+	text-align: center;
+	border-bottom:2px solid #298EEA; 
+
+}
+.zapisnici {
+	margin-top: -20px;	
+	padding-bottom: 15px;
+	border-bottom:1px solid #2980b9;
+}
+.unos_biljke {
+	margin-top: -20px;	
+	padding-bottom: 5px;
+	border-bottom:1px solid #1abc9c;
+}
+.rezultati{
+	float: left;
+	width:800px;
+	padding-left: 15px;
+	text-align: center;
+	height:80%;
+}
+.vrste ul {
+	text-align: left;
+}
+.prema_vrsti {
+	margin-top: -20px;
+	border-bottom: 1px solid #27ae60;
+}
+#greska{
+	font-size: 15px;
+	color: #c0392b;
+	float: left;
+	margin-left: 10px;
+	margin-top: -10px;	
+}
+#zaglavlje {
+	text-align: center;
+	color:#444444;
+	margin-top: -20px;
+	background-color: #EDE04D;	
+	top: 0;
+	left: 0;
+  	right: 0;
+ 	z-index: 999;
+  	width: 100%;
+
+}
+#zaglavlje_a a:hover{
+	color:white;
+}
+#zaglavlje ul {
+	list-style: none;
+}
+#zaglavlje li {
+	display: inline;
+	margin-right: 5px;
+}
+#zaglavlje_a{
+	text-align: center;
+	width: 100%;
+}
+
+#podaci {
+	background-color: white;
+	color: #372248;
+	font-size:20px;
+	float: left;
+	width:250px;
+	border-radius: 5px;
+	padding-left: 15px;
+	margin-top: 80px;
+	margin-left: 200px;
+	margin-right: 50px;
+}
+
+#slika {
+	float: right;
+	margin-top: 20px;
+	margin-right: 200px;
+}
+a {
+	color:#2c3e50;
+}
+a:hover {
+	color: #27ae60;
+}
+.zap_link{
+	color:#34495e;
+}
+.zap_link:hover{
+	color:#ecf0f1;
+}
+span {
+	font-weight: bold;
+}
+.prijava {
+	background-color: white;
+	color: #372248;
+	font-size:18px;
+	width:320px;
+	height: 250px;
+	border-radius: 5px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.prijava {
+	padding:20px;
+}
+.prijava .unos {
+	float: right;
+	margin-right: 20px;
+	height: 30px;
+}
+.prijava .btnPrijava{
+	background-color: #2ecc71;
+	border:2px solid white;
+	color: white;
+	height: 40px;
+	width: 80px;
+	font-size: 18px;
+	margin-top: 35px;
+	margin-left:10px;
+	border-radius: 5px;
+}
+.prijava .btnPrijava:hover {
+	background-color: #27ae60;	
+	cursor: pointer;
+}
+button{
+	background-color: #2ecc71;
+	border:2px solid #2ecc71;	
+	color: white;
+	height: 40px;
+	width: 100px;
+	font-size: 15px;	
+	border-radius: 5px;
+}
+button:hover {
+	background-color: #27ae60;
+	cursor: pointer;	
+}
+.btn{
+	background-color: #2ecc71;
+	border:2px solid #2ecc71;	
+	color: white;
+	height: 25px;
+	width: 98px;
+	font-size: 15px;	
+	border-radius: 5px;
+}
+.btn:hover {
+	background-color: #27ae60;
+	cursor: pointer;	
+}
+.prijava .natpisi {
+	margin-left: 10px;
+}
+.prijava h2 {
+	margin-left:10px;
+}
+
+.zapisnik{
+	background-color: white;
+	color: #372248;
+	font-size:18px;
+	width:320px;
+	height: 280px;
+	border-radius: 5px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.zapisnik .natpisi {
+	margin-left: 10px;
+}
+.zapisnik h2 {
+
+	margin-left:10px;
+}
+.zapisnik .unos {
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;	
+	height: 25px;
+}
+.zapisnik .btnZapisnik{
+	background-color: #2ecc71;
+	border:2px solid white;
+	color: white;
+	height: 40px;
+	width: 105px;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-left:10px;
+	border-radius: 5px;
+}
+.zapisnik .btnZapisnik:hover {
+	background-color: #27ae60;	
+	cursor: pointer;
+}
+#zapisnik {
+	visibility: hidden;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: 150px;
+ 	transform: translate(-50%, -50%);
+}
+.ispis_zapisa{
+	float: left;
+	margin-left: 200px;
+	margin-top: 30px;
+}
+.azur_popisa {
+	float: left;
+	margin-left:150px;
+	margin-top:30px;
+}
+
+.azur_mod{
+	float: left;
+	margin-left:150px;
+	margin-top:80px;
+}
+.zapis{
+	background-color: white;
+	color: #372248;
+	font-size:16px;
+	width:380px;
+	height: 350px;
+	border-radius: 5px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.zapis .natpisi {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.zapis h2 {
+	margin-left:20px;
+}
+
+.zapis .unos {
+	float: right;
+	margin-right: 20px;	
+	height: 20px;
+}
+.zapis .btnZapisnik{
+	background-color: #2ecc71;
+	border:2px solid white;
+	color: white;
+	height: 40px;
+	width: 108px;
+	font-size: 18px;
+	margin-top: 35px;
+	margin-left:10px;
+	border-radius: 5px;
+}
+.zapis .btnZapisnik:hover {
+	background-color: #27ae60;	
+	cursor: pointer;
+}
+.container {
+	position: fixed;
+	width: 100%;
+	  bottom:-250px;
+}
+.knjiga {
+	float: right;
+	margin-right: 200px;
+	margin-top: 100px;	
+}
+.knjiga p{
+	margin-left: 20px;
+}
+.knjiga a:hover{
+	color:white;
+}
+ table,th,tr{	
+   background-color: white;
+   color:#2c3e50;
+   text-align: center;
+} 
+th{
+	border: #27ae60;
+	color:white;
+	background-color: #27ae60;
+}
+tr:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+.prazno{
+	text-align: center;
+}
+
+.ime {
+	float:left;
+}
+.prijava_odj{
+	float: right;
+}
+
+.body{
+	margin-left: 100px;
+}
+.unosi{
+	font-size: 15px;
+	background-color: white;
+	color: #372248;
+	width:320px;
+	height: 280px;
+	border-radius: 5px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.unosi {
+	padding:20px;
+}
+.unosi .unos {
+	float: right;
+	margin-right: 20px;
+	height: 25px;
+}
+.unos_area {
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;	
+	height: 50px;
+}
+.unosi .btnPrijava{
+	background-color: #2ecc71;
+	border:2px solid white;
+	color: white;
+	height: 40px;
+	width: 80px;
+	font-size: 18px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+.unosi .btnPrijava:hover {
+	background-color: #27ae60;	
+	cursor: pointer;
+}
+
+.unosi .natpisi {
+	margin-left: 10px;
+}
+.unosi h2 {
+	margin-left:10px;
+}
+.korisnici {
+	margin-top:-10px;
+	padding-bottom: 10px;		
+}
+.azur_korisnika {
+	background-color: white;
+	color: #372248;
+	font-size:16px;
+	width:320px;
+	height: 400px;
+	border-radius: 5px;
+	float:right;
+	margin-top: 70px;
+	margin-right: 80px;
+
+}
+.azur_korisnika .btn{
+	background-color: #2ecc71;
+	border:2px solid white;
+	color: white;
+	height: 40px;
+	width: 80px;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.azur_korisnika .btn:hover {
+	background-color: #27ae60;	
+	cursor: pointer;
+}
+
+.azur_korisnika .natpisi {
+	margin-left: 10px;
+}
+.azur_korisnika h2 {
+	margin-left:10px;
+}
+.azur_korisnika .unos {
+	float: right;
+	margin-right: 20px;
+	height: 25px;
+}
+.filter{
+	background-color: white;
+	border-top: 3px solid #27ae60;
+	color: #2c3e50;
+}
+.filter a{
+	margin-right: 5px;
+}
+.nova{
+	font-size: 15px;
+	background-color: white;
+	color: #372248;
+	width:320px;
+	height: 200px;
+	border-radius: 5px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.nova {
+	padding:20px;
+}
+.nova .unos {
+	float: right;
+	margin-right: 20px;
+	height: 25px;
+}
+
+.nova .btnPrijava{
+	background-color: #2ecc71;
+	border:2px solid white;
+	color: white;
+	height: 40px;
+	width: 80px;
+	font-size: 18px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+.nova .btnPrijava:hover {
+	background-color: #27ae60;	
+	cursor: pointer;
+}
+
+.nova .natpisi {
+	margin-left: 10px;
+}
+.nova h2 {
+	margin-left:10px;
+}
